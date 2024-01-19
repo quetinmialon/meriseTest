@@ -1,0 +1,42 @@
+{
+  "width": 348,
+  "height": 424,
+  "cx": [
+    [ "ORDERS", 53 ],
+    [ "ORDER", 169 ],
+    [ "USERS", 290 ],
+    [ "COMPOSE", 53 ],
+    [ "PRODUCTS", 169 ],
+    [ "ASSOCIATE", 290 ],
+    [ "TAGS", 53 ],
+    [ "FILTER", 169 ],
+    [ "CATEGORIES", 290 ]
+  ],
+  "cy": [
+    [ "ORDERS", 68 ],
+    [ "ORDER", 68 ],
+    [ "USERS", 68 ],
+    [ "COMPOSE", 220 ],
+    [ "PRODUCTS", 220 ],
+    [ "ASSOCIATE", 220 ],
+    [ "TAGS", 364 ],
+    [ "FILTER", 364 ],
+    [ "CATEGORIES", 364 ]
+  ],
+  "shift": [
+    [ "ORDER,USERS,0", 0 ],
+    [ "ORDER,ORDERS,0", 0 ],
+    [ "COMPOSE,PRODUCTS,0", 0 ],
+    [ "COMPOSE,ORDERS,0", 0 ],
+    [ "ASSOCIATE,CATEGORIES,0", 0 ],
+    [ "ASSOCIATE,PRODUCTS,0", 0 ],
+    [ "FILTER,TAGS,0", 0 ],
+    [ "FILTER,PRODUCTS,0", 0 ]
+  ],
+  "ratio": [
+    [ "ORDER,ORDERS,0", 1.0 ],
+    [ "COMPOSE,PRODUCTS,0", 1.0 ],
+    [ "ASSOCIATE,CATEGORIES,0", 1.0 ],
+    [ "FILTER,PRODUCTS,0", 1.0 ]
+  ]
+}

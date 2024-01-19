@@ -1,0 +1,11 @@
+ORDERS: num_order, num_invoice, status, created_at, updated_at
+ORDER, 0N USERS, 11> ORDERS
+USERS: num_user, name, password, created_at, updated_at
+
+COMPOSE, 0N> PRODUCTS, 1N ORDERS: quantity
+PRODUCTS: num_product, name, quantity, status, created_at, updated_at
+ASSOCIATE, 0N> CATEGORIES, 01 PRODUCTS
+
+TAGS: num_tag, name, created_at, updated_at
+FILTER, 0N TAGS, 0N> PRODUCTS
+CATEGORIES: num_category, name, created_at, updated_at
